@@ -1,0 +1,348 @@
+{
+  "@context": {
+    "cf": "http://cf-pcmdi.llnl.gov/documents/cf-conventions/", 
+    "nc": "http://www.unidata.ucar.edu/software/netcdf/", 
+    "opensdm": "http://www.sww.tugraz.at/opensdm/", 
+    "sww": "http://www.sww.tugraz.at/vocab"
+  }, 
+  "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events", 
+  "@type": "nc:dataset", 
+  "opensdm:children": [
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/event", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "ID of the rain event", 
+        "cf:long_name": "event_id", 
+        "nc:data_type": "string", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "event"
+      }, 
+      "opensdm:name": "event"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/start_time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "start time of the rain event", 
+        "cf:long_name": "start time of the rain event", 
+        "cf:units": "seconds since 1970-01-01 00:00:00.0", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "start_time"
+      }, 
+      "opensdm:name": "start_time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/end_time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "end time of the rain event", 
+        "cf:long_name": "end time of the rain event", 
+        "cf:units": "seconds since 1970-01-01 00:00:00.0", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "end_time"
+      }, 
+      "opensdm:name": "end_time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/BODeq_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of biochemical oxygen demand in the influent to the primary clarifiers", 
+        "cf:long_name": "BODeq_pcin_max", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "BODeq_max", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "BODeq_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/BODeq_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of biochemical oxygen demand in the influent to the primary clarifiers", 
+        "cf:long_name": "BODeq_pcin_flux", 
+        "cf:units": "kg", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "BODeq_flux", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "BODeq_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/CODeq_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of chemical oxygen demand (homogenized) in the influent to the primary clarifiers", 
+        "cf:long_name": "CODeq_pcin_max", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "CODeq_max", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "CODeq_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/CODeq_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of chemical oxygen demand (homogenized) in the influent to the primary clarifiers", 
+        "cf:long_name": "CODeq_pcin_flux", 
+        "cf:units": "kg", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "CODeq_flux", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "CODeq_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/CODfeq_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of chemical oxygen demand (filtrated) in the influent to the primary clarifiers", 
+        "cf:long_name": "CODfeq_pcin_max", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "CODfeq_max", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "CODfeq_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/CODfeq_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of chemical oxygen demand (filtrated) in the influent to the primary clarifiers", 
+        "cf:long_name": "CODfeq_pcin_flux", 
+        "cf:units": "kg", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "CODfeq_flux", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "CODfeq_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/DOCeq_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of dissolved organic carbon in the influent to the primary clarifiers", 
+        "cf:long_name": "DOCeq_pcin_max", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "DOCeq_max", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "DOCeq_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/DOCeq_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of dissolved organic carbon in the influent to the primary clarifiers", 
+        "cf:long_name": "DOCeq_pcin_flux", 
+        "cf:units": "kg", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "DOCeq_flux", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "DOCeq_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/NO3-Neq_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of nitrate nitrogen in the influent to the primary clarifiers", 
+        "cf:long_name": "NO3_Neq_pcin_max", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "NO3-Neq_max", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "NO3-Neq_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/NO3-Neq_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of nitrate nitrogen in the influent to the primary clarifiers", 
+        "cf:long_name": "NO3_Neq_pcin_flux", 
+        "cf:units": "kg", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "NO3-Neq_flux", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "NO3-Neq_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/TOCeq_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of total organic carbon in the influent to the primary clarifiers", 
+        "cf:long_name": "TOCeq_pcin_max", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "TOCeq_max", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "TOCeq_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/TOCeq_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of total organic carbon in the influent to the primary clarifiers", 
+        "cf:long_name": "TOCeq_pcin_flux", 
+        "cf:units": "kg", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "TOCeq_flux", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "TOCeq_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/TSSeq_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of total suspended solids in the influent to the primary clarifiers", 
+        "cf:long_name": "TSSeq_pcin_max", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "TSSeq_max", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "TSSeq_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/TSSeq_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of total suspended solids in the influent to the primary clarifiers", 
+        "cf:long_name": "TSSeq_pcin_flux", 
+        "cf:units": "kg", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "TSSeq_flux", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280204", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "TSSeq_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events/water_level_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of water level in the influent to the primary clarifiers", 
+        "cf:long_name": "water_level_pcin_max", 
+        "cf:units": "m", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "water_level_max", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCIN"
+      }, 
+      "opensdm:name": "water_level_max"
+    }
+  ], 
+  "opensdm:data": {
+    "cf:Conventions": "CF-1.6", 
+    "cf:comment": "Event Detection Data from linz-wwtp-pcin", 
+    "cf:history": "linz-wwtp-event_detection.r 1.0", 
+    "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+    "cf:references": "http://www.sww.tugraz.at", 
+    "cf:source": "analysis", 
+    "cf:title": "linz-wwtp-pcin_events"
+  }, 
+  "opensdm:name": "linz-wwtp-pcin_events"
+}

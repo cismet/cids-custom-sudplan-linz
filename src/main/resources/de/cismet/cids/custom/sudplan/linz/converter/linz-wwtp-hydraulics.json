@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "cf": "http://cf-pcmdi.llnl.gov/documents/cf-conventions/", 
+    "nc": "http://www.unidata.ucar.edu/software/netcdf/", 
+    "opensdm": "http://www.sww.tugraz.at/opensdm/", 
+    "sww": "http://www.sww.tugraz.at/vocab"
+  }, 
+  "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics", 
+  "@type": "nc:dataset", 
+  "opensdm:children": [
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics/time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:long_name": "time of measurement", 
+        "cf:units": "seconds since 1970-01-01 00:00:00.0", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "time"
+      }, 
+      "opensdm:name": "time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics/Q_cso", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Discharge of CSO in the overflow channel", 
+        "cf:long_name": "Q_cso", 
+        "cf:units": "l/s", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "Q_cso", 
+        "sww:wwtp_linz_id": "F15.802"
+      }, 
+      "opensdm:name": "Q_cso"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics/Q_inflow_total_at", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Total discharge to the aeration tanks", 
+        "cf:long_name": "Q_inflow_total_at", 
+        "cf:units": "l/s", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "Q_inflow_total_at", 
+        "sww:wwtp_linz_id": "F22.808"
+      }, 
+      "opensdm:name": "Q_inflow_total_at"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics/Q_wwtp_inflow", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Discharge to WWTP Linz", 
+        "cf:long_name": "Q_wwtp_inflow", 
+        "cf:units": "l/s", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "Q_wwtp_inflow", 
+        "sww:component_long_name": "Nivus OCM Pro", 
+        "sww:wwtp_linz_id": "F01.801"
+      }, 
+      "opensdm:name": "Q_wwtp_inflow"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics/Rain", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Rain", 
+        "cf:long_name": "Rain", 
+        "cf:units": "mm/min", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "Rain", 
+        "sww:wwtp_linz_id": "F25.801"
+      }, 
+      "opensdm:name": "Rain"
+    }
+  ], 
+  "opensdm:data": {
+    "cf:Conventions": "CF-1.6", 
+    "cf:comment": "Raw Data from Linz Hydraulics", 
+    "cf:history": "linz-hydraulics-nc-converter.py", 
+    "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+    "cf:references": "http://www.sww.tugraz.at", 
+    "cf:source": "observation", 
+    "cf:title": "Linz-Hydraulics"
+  }, 
+  "opensdm:name": "linz-wwtp-hydraulics"
+}

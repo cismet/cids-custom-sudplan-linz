@@ -1,0 +1,29 @@
+<sml:SensorML xmlns:sml="http://www.opengis.net/sensorML/1.0.1"
+            xmlns:swe="http://www.opengis.net/swe/1.0.1"
+            xmlns:gml="http://www.opengis.net/gml"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0.1"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.opengis.net/sensorML/1.0.1 
+                                http://schemas.opengis.net/sensorML/1.0.1/sensorML.xsd ">
+    <sml:member>
+        <sml:System gml:id="__ID__">
+            <gml:description>Rain input for model</gml:description>
+            <sml:identification>
+                <sml:IdentifierList>
+                    <sml:identifier name="UID">
+                        <sml:Term definition="urn:x-ogc:def:identifier:OGC:uuid">
+                            <sml:value>urn:x-ogc:object:model:Linz:prec:input</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                    <sml:identifier>
+                        <sml:Term definition="urn:x-ogc:def:identifier:OGC:shortName">
+                            <sml:value>Linz model input</sml:value>
+                        </sml:Term>
+                    </sml:identifier>
+                </sml:IdentifierList>
+            </sml:identification>
+            
+            
+        </sml:System>
+    </sml:member>
+</sml:SensorML>

@@ -1,0 +1,185 @@
+{
+  "@context": {
+    "cf": "http://cf-pcmdi.llnl.gov/documents/cf-conventions/", 
+    "nc": "http://www.unidata.ucar.edu/software/netcdf/", 
+    "opensdm": "http://www.sww.tugraz.at/opensdm/", 
+    "sww": "http://www.sww.tugraz.at/vocab"
+  }, 
+  "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout", 
+  "@type": "nc:dataset", 
+  "opensdm:children": [
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:ancillary_variables": "time_conversion_status", 
+        "cf:units": "seconds since 1970-01-01 00:00:00", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "time"
+      }, 
+      "opensdm:name": "time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/BODeq", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Biochemical Oxygen Demand in the effluent of the primary clarifiers", 
+        "cf:long_name": "BODeq_pcout", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "BODeq", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280194", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "BODeq"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/CODeq", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Chemical Oxygen Demand (homogenized) in the effluent of the primary clarifiers", 
+        "cf:long_name": "CODeq_pcout", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "CODeq", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280194", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "CODeq"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/CODfeq", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Chemical Oxygen Demand (filtrated) in the effluent of the primary clarifiers", 
+        "cf:long_name": "CODfeq_pcout", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "CODfeq", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280194", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "CODfeq"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/DOCeq", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Dissolved Organic Carbon in the effluent of the primary clarifiers", 
+        "cf:long_name": "DOCeq_pcout", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "DOCeq", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280194", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "DOCeq"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/NO3-Neq", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Nitrate Nitrogen in the effluent of the primary clarifiers", 
+        "cf:long_name": "NO3_Neq_pcout", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "NO3-Neq", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280194", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "NO3-Neq"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/TOCeq", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Total Organic Carbon in the effluent of the primary clarifiers", 
+        "cf:long_name": "TOCeq_pcout", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "TOCeq", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280194", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "TOCeq"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/TSSeq", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Total Suspended Solids in the effluent of the primary clarifiers", 
+        "cf:long_name": "TSSeq_pcout", 
+        "cf:units": "mg/l", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "TSSeq", 
+        "sww:component_info": "scan:global_calib=INFLU004V16T", 
+        "sww:component_long_name": "s::can UV/VIS spectrolyser", 
+        "sww:component_serial_number": "11280194", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "TSSeq"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout/water_level", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Water level in the effluent of the primary clarifiers", 
+        "cf:long_name": "water_level_pcout", 
+        "cf:units": "m", 
+        "nc:data_type": "float32", 
+        "nc:dimensions": [
+          "time"
+        ], 
+        "nc:variable_name": "water_level", 
+        "sww:wwtp_linz_id": "SUDPLAN Sensor Network L-PCOUT"
+      }, 
+      "opensdm:name": "water_level"
+    }
+  ], 
+  "opensdm:data": {
+    "cf:Conventions": "CF-1.6", 
+    "cf:comment": "Raw Data from linz-wwtp-pcout", 
+    "cf:history": "linz-wwtp-nc-convert 1.0", 
+    "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+    "cf:references": "http://www.sww.tugraz.at", 
+    "cf:source": "observation", 
+    "cf:title": "linz-wwtp-pcout"
+  }, 
+  "opensdm:name": "linz-wwtp-pcout"
+}

@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "cf": "http://cf-pcmdi.llnl.gov/documents/cf-conventions/", 
+    "nc": "http://www.unidata.ucar.edu/software/netcdf/", 
+    "opensdm": "http://www.sww.tugraz.at/opensdm/", 
+    "sww": "http://www.sww.tugraz.at/vocab"
+  }, 
+  "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets", 
+  "@type": "opensdm:container", 
+  "opensdm:children": [
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics", 
+      "@type": "nc:dataset", 
+      "opensdm:data": {
+        "cf:Conventions": "CF-1.6", 
+        "cf:comment": "Raw Data from Linz Hydraulics", 
+        "cf:history": "linz-hydraulics-nc-converter.py", 
+        "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+        "cf:references": "http://www.sww.tugraz.at", 
+        "cf:source": "observation", 
+        "cf:title": "Linz-Hydraulics"
+      }, 
+      "opensdm:name": "linz-wwtp-hydraulics"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events", 
+      "@type": "nc:dataset", 
+      "opensdm:data": {
+        "cf:Conventions": "CF-1.6", 
+        "cf:comment": "Event Detection Data from linz-wwtp-hydraulics", 
+        "cf:history": "linz-wwtp-event_detection.r 1.0", 
+        "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+        "cf:references": "http://www.sww.tugraz.at", 
+        "cf:source": "analysis", 
+        "cf:title": "linz-wwtp-hydraulics_events"
+      }, 
+      "opensdm:name": "linz-wwtp-hydraulics_events"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin", 
+      "@type": "nc:dataset", 
+      "opensdm:data": {
+        "cf:Conventions": "CF-1.6", 
+        "cf:comment": "Raw Data from linz-wwtp-pcin", 
+        "cf:history": "linz-wwtp-nc-convert 1.0", 
+        "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+        "cf:references": "http://www.sww.tugraz.at", 
+        "cf:source": "observation", 
+        "cf:title": "linz-wwtp-pcin"
+      }, 
+      "opensdm:name": "linz-wwtp-pcin"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcin_events", 
+      "@type": "nc:dataset", 
+      "opensdm:data": {
+        "cf:Conventions": "CF-1.6", 
+        "cf:comment": "Event Detection Data from linz-wwtp-pcin", 
+        "cf:history": "linz-wwtp-event_detection.r 1.0", 
+        "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+        "cf:references": "http://www.sww.tugraz.at", 
+        "cf:source": "analysis", 
+        "cf:title": "linz-wwtp-pcin_events"
+      }, 
+      "opensdm:name": "linz-wwtp-pcin_events"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout", 
+      "@type": "nc:dataset", 
+      "opensdm:data": {
+        "cf:Conventions": "CF-1.6", 
+        "cf:comment": "Raw Data from linz-wwtp-pcout", 
+        "cf:history": "linz-wwtp-nc-convert 1.0", 
+        "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+        "cf:references": "http://www.sww.tugraz.at", 
+        "cf:source": "observation", 
+        "cf:title": "linz-wwtp-pcout"
+      }, 
+      "opensdm:name": "linz-wwtp-pcout"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-pcout_events", 
+      "@type": "nc:dataset", 
+      "opensdm:data": {
+        "cf:Conventions": "CF-1.6", 
+        "cf:comment": "Event Detection Data from linz-wwtp-pcout", 
+        "cf:history": "linz-wwtp-event_detection.r 1.0", 
+        "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+        "cf:references": "http://www.sww.tugraz.at", 
+        "cf:source": "analysis", 
+        "cf:title": "linz-wwtp-pcout_events"
+      }, 
+      "opensdm:name": "linz-wwtp-pcout_events"
+    }
+  ], 
+  "opensdm:name": "sudplan-datasets"
+}

@@ -1,0 +1,180 @@
+{
+  "@context": {
+    "cf": "http://cf-pcmdi.llnl.gov/documents/cf-conventions/", 
+    "nc": "http://www.unidata.ucar.edu/software/netcdf/", 
+    "opensdm": "http://www.sww.tugraz.at/opensdm/", 
+    "sww": "http://www.sww.tugraz.at/vocab"
+  }, 
+  "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events", 
+  "@type": "nc:dataset", 
+  "opensdm:children": [
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/event", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "ID of the rain event", 
+        "cf:long_name": "event_id", 
+        "nc:data_type": "string", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "event"
+      }, 
+      "opensdm:name": "event"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/start_time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "start time of the rain event", 
+        "cf:long_name": "start time of the rain event", 
+        "cf:units": "seconds since 1970-01-01 00:00:00.0", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "start_time"
+      }, 
+      "opensdm:name": "start_time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/end_time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "end time of the rain event", 
+        "cf:long_name": "end time of the rain event", 
+        "cf:units": "seconds since 1970-01-01 00:00:00.0", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "end_time"
+      }, 
+      "opensdm:name": "end_time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/Q_cso_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of discharge of cso in the overflow channel", 
+        "cf:long_name": "Q_cso_max", 
+        "cf:units": "l/s", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Q_cso_max", 
+        "sww:wwtp_linz_id": "F15.802"
+      }, 
+      "opensdm:name": "Q_cso_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/Q_cso_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of discharge of cso in the overflow channel", 
+        "cf:long_name": "Q_cso_flux", 
+        "cf:units": "m^3", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Q_cso_flux", 
+        "sww:wwtp_linz_id": "F15.802"
+      }, 
+      "opensdm:name": "Q_cso_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/Q_inflow_total_at_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of total discharge to the aeration tanks", 
+        "cf:long_name": "Q_inflow_total_at_max", 
+        "cf:units": "l/s", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Q_inflow_total_at_max", 
+        "sww:wwtp_linz_id": "F22.808"
+      }, 
+      "opensdm:name": "Q_inflow_total_at_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/Q_inflow_total_at_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of total discharge to the aeration tanks", 
+        "cf:long_name": "Q_inflow_total_at_flux", 
+        "cf:units": "m^3", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Q_inflow_total_at_flux", 
+        "sww:wwtp_linz_id": "F22.808"
+      }, 
+      "opensdm:name": "Q_inflow_total_at_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/Q_wwtp_inflow_max", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Maximum of discharge to wwtp linz", 
+        "cf:long_name": "Q_wwtp_inflow_max", 
+        "cf:units": "l/s", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Q_wwtp_inflow_max", 
+        "sww:component_long_name": "Nivus OCM Pro", 
+        "sww:wwtp_linz_id": "F01.801"
+      }, 
+      "opensdm:name": "Q_wwtp_inflow_max"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/Q_wwtp_inflow_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of discharge to wwtp linz", 
+        "cf:long_name": "Q_wwtp_inflow_flux", 
+        "cf:units": "m^3", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Q_wwtp_inflow_flux", 
+        "sww:component_long_name": "Nivus OCM Pro", 
+        "sww:wwtp_linz_id": "F01.801"
+      }, 
+      "opensdm:name": "Q_wwtp_inflow_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-hydraulics_events/Rain_sum", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Sum of rain", 
+        "cf:long_name": "Rain_sum", 
+        "cf:units": "mm", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Rain_sum", 
+        "sww:wwtp_linz_id": "F25.801"
+      }, 
+      "opensdm:name": "Rain_sum"
+    }
+  ], 
+  "opensdm:data": {
+    "cf:Conventions": "CF-1.6", 
+    "cf:comment": "Event Detection Data from linz-wwtp-hydraulics", 
+    "cf:history": "linz-wwtp-event_detection.r 1.0", 
+    "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+    "cf:references": "http://www.sww.tugraz.at", 
+    "cf:source": "analysis", 
+    "cf:title": "linz-wwtp-hydraulics_events"
+  }, 
+  "opensdm:name": "linz-wwtp-hydraulics_events"
+}

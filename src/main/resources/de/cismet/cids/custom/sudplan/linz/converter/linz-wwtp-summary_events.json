@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "cf": "http://cf-pcmdi.llnl.gov/documents/cf-conventions/", 
+    "nc": "http://www.unidata.ucar.edu/software/netcdf/", 
+    "opensdm": "http://www.sww.tugraz.at/opensdm/", 
+    "sww": "http://www.sww.tugraz.at/vocab"
+  }, 
+  "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events", 
+  "@type": "nc:dataset", 
+  "opensdm:children": [
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/event", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "ID of the rain event", 
+        "cf:long_name": "event_id", 
+        "nc:data_type": "string", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "event"
+      }, 
+      "opensdm:name": "event"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/start_time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "start time of the rain event", 
+        "cf:long_name": "start time of the rain event", 
+        "cf:units": "seconds since 1970-01-01 00:00:00.0", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "start_time"
+      }, 
+      "opensdm:name": "start_time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/end_time", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "end time of the rain event", 
+        "cf:long_name": "end time of the rain event", 
+        "cf:units": "seconds since 1970-01-01 00:00:00.0", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "end_time"
+      }, 
+      "opensdm:name": "end_time"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/event_duration", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "duration of the rain event", 
+        "cf:long_name": "duration of the rain event", 
+        "cf:units": "minutes", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "event_duration"
+      }, 
+      "opensdm:name": "event_duration"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/Q_cso_flux", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "Flux of discharge of cso in the overflow channel", 
+        "cf:long_name": "Q_cso_flux", 
+        "cf:units": "m^3", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "Q_cso_flux", 
+        "sww:wwtp_linz_id": "F15.802"
+      }, 
+      "opensdm:name": "Q_cso_flux"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/mass_balance_TSSeq_pcin", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "mass balance in the inflow of the primary clarifier", 
+        "cf:long_name": "mass balance in the inflow of the primary clarifier", 
+        "cf:units": "kg", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "mass_balance_TSSeq_pcin"
+      }, 
+      "opensdm:name": "mass_balance_TSSeq_pcin"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/mass_balance_TSSeq_pcout", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "mass balance in the outflow of the primary clarifier", 
+        "cf:long_name": "mass balance in the outlow of the primary clarifier", 
+        "cf:units": "kg", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "mass_balance_TSSeq_pcout"
+      }, 
+      "opensdm:name": "mass_balance_TSSeq_pcout"
+    }, 
+    {
+      "@id": "http://fswwwww1.tu-graz.ac.at:8080/datasets/linz-wwtp-summary_events/mass_balance_sedimentation_efficiency", 
+      "@type": "nc:variable", 
+      "opensdm:data": {
+        "cf:description": "sedimentation efficiency in the primary clarifier for the rain event", 
+        "cf:long_name": "sedimentation efficiency in the primary clarifier for the rain event", 
+        "cf:units": "percent", 
+        "nc:data_type": "float64", 
+        "nc:dimensions": [
+          "event_dimension"
+        ], 
+        "nc:variable_name": "mass_balance_sedimentation_efficiency"
+      }, 
+      "opensdm:name": "mass_balance_sedimentation_efficiency"
+    }
+  ], 
+  "opensdm:data": {
+    "cf:Conventions": "CF-1.6", 
+    "cf:comment": "Event Detection Data from linz-wwtp-summary", 
+    "cf:history": "linz-wwtp-event_detection.r 1.0", 
+    "cf:institution": "Institute of Urban Water Management and Landscape Water Engineering @ University of Technology Graz", 
+    "cf:references": "http://www.sww.tugraz.at", 
+    "cf:source": "analysis", 
+    "cf:title": "linz-wwtp-summary_events"
+  }, 
+  "opensdm:name": "linz-wwtp-summary_events"
+}

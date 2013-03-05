@@ -30,7 +30,7 @@ import javax.swing.table.AbstractTableModel;
 
 import de.cismet.cids.custom.sudplan.WizardInitialisationException;
 import de.cismet.cids.custom.sudplan.commons.SudplanConcurrency;
-import de.cismet.cids.custom.sudplan.server.actions.CopyCSOsAction;
+import de.cismet.cids.custom.sudplan.linz.server.actions.CopyCSOsAction;
 
 import de.cismet.cids.dynamics.CidsBean;
 

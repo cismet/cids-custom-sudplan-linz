@@ -30,8 +30,8 @@ import javax.swing.JComponent;
 import javax.swing.JTextField;
 
 import de.cismet.cids.custom.sudplan.AbstractCidsBeanRenderer;
-import de.cismet.cids.custom.sudplan.server.search.CsoByOverflowSearch;
-import de.cismet.cids.custom.sudplan.server.search.EtaResultSearch;
+import de.cismet.cids.custom.sudplan.linz.server.search.CsoByOverflowSearch;
+import de.cismet.cids.custom.sudplan.linz.server.search.EtaResultSearch;
 
 import de.cismet.cids.dynamics.CidsBean;
 

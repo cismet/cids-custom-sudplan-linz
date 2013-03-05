@@ -5,10 +5,6 @@
 *              ... and it just works.
 *
 ****************************************************/
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package de.cismet.cids.custom.sudplan.linz.wizard;
 
 import Sirius.navigator.connection.SessionManager;
@@ -32,8 +28,8 @@ import javax.swing.table.AbstractTableModel;
 import de.cismet.cids.custom.sudplan.WizardInitialisationException;
 import de.cismet.cids.custom.sudplan.commons.SudplanConcurrency;
 import de.cismet.cids.custom.sudplan.linz.EtaConfiguration;
-import de.cismet.cids.custom.sudplan.server.search.LightwightCsoSearch;
-import de.cismet.cids.custom.sudplan.server.search.LightwightCsoSearch.LightwightCso;
+import de.cismet.cids.custom.sudplan.linz.server.search.LightwightCsoSearch;
+import de.cismet.cids.custom.sudplan.linz.server.search.LightwightCsoSearch.LightwightCso;
 
 /**
  * DOCUMENT ME!

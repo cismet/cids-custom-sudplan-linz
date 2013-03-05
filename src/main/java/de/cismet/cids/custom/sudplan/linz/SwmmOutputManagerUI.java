@@ -29,7 +29,7 @@ import javax.swing.JTable;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableCellRenderer;
 
-import de.cismet.cids.custom.sudplan.server.trigger.SwmmResultGeoserverUpdater;
+import de.cismet.cids.custom.sudplan.linz.server.trigger.SwmmResultGeoserverUpdater;
 
 import de.cismet.cismap.commons.XBoundingBox;
 import de.cismet.cismap.commons.interaction.CismapBroker;

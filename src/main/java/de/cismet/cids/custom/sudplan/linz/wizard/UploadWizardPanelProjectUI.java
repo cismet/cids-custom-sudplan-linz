@@ -29,8 +29,8 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
 import de.cismet.cids.custom.sudplan.WizardInitialisationException;
-import de.cismet.cids.custom.sudplan.server.search.LightwightSwmmProjectsSearch;
-import de.cismet.cids.custom.sudplan.server.search.LightwightSwmmProjectsSearch.LightwightSwmmProject;
+import de.cismet.cids.custom.sudplan.linz.server.search.LightwightSwmmProjectsSearch;
+import de.cismet.cids.custom.sudplan.linz.server.search.LightwightSwmmProjectsSearch.LightwightSwmmProject;
 
 /**
  * DOCUMENT ME!

@@ -77,10 +77,10 @@ public class LinzSensorTitleComponent extends javax.swing.JPanel {
 
         lblIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblIcon.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/sensor.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/sensor.png"))); // NOI18N
         lblIcon.setText(org.openide.util.NbBundle.getMessage(
                 LinzSensorTitleComponent.class,
-                "LinzSensorTitleComponent.lblIcon.text"));                                        // NOI18N
+                "LinzSensorTitleComponent.lblIcon.text"));                                  // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(5, 15, 5, 5);

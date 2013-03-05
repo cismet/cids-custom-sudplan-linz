@@ -23,7 +23,7 @@
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/de/cismet/cids/custom/sudplan/local/linz/sensor.png"/>
+          <Image iconType="3" name="/de/cismet/cids/custom/sudplan/linz/sensor.png"/>
         </Property>
         <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
           <ResourceString bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="LinzSensorTitleComponent.lblIcon.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>

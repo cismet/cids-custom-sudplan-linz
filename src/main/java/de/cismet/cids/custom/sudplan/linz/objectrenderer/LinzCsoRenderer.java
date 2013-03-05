@@ -492,7 +492,7 @@ public class LinzCsoRenderer extends AbstractCidsBeanRenderer implements BorderP
         panFooterPrevPage.add(lblPrevPage);
 
         btnPrevPage.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/arrow-left.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/arrow-left.png"))); // NOI18N
         btnPrevPage.setBorderPainted(false);
         btnPrevPage.setContentAreaFilled(false);
         btnPrevPage.setEnabled(false);
@@ -519,7 +519,7 @@ public class LinzCsoRenderer extends AbstractCidsBeanRenderer implements BorderP
         panFooterNextPage.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10, 5));
 
         btnNextPage.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/arrow-right.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/arrow-right.png"))); // NOI18N
         btnNextPage.setBorderPainted(false);
         btnNextPage.setContentAreaFilled(false);
         btnNextPage.setFocusPainted(false);
@@ -833,8 +833,7 @@ public class LinzCsoRenderer extends AbstractCidsBeanRenderer implements BorderP
         panFooterLeft.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT, 10, 5));
 
         btnBack.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/objectrenderer/sudplan/arrow-left.png")));          // NOI18N
-        btnBack.setBorder(null);
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/objectrenderer/arrow-left.png")));          // NOI18N
         btnBack.setBorderPainted(false);
         btnBack.setContentAreaFilled(false);
         btnBack.setEnabled(false);
@@ -843,9 +842,9 @@ public class LinzCsoRenderer extends AbstractCidsBeanRenderer implements BorderP
         btnBack.setMinimumSize(new java.awt.Dimension(30, 30));
         btnBack.setPreferredSize(new java.awt.Dimension(30, 30));
         btnBack.setPressedIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/objectrenderer/sudplan/arrow-left-pressed.png")));  // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/objectrenderer/arrow-left-pressed.png")));  // NOI18N
         btnBack.setRolloverIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/objectrenderer/sudplan/arrow-left-selected.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/objectrenderer/arrow-left-selected.png"))); // NOI18N
         btnBack.addActionListener(new java.awt.event.ActionListener() {
 
                 @Override
@@ -869,8 +868,7 @@ public class LinzCsoRenderer extends AbstractCidsBeanRenderer implements BorderP
         panFooterRight.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10, 5));
 
         btnForward.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/objectrenderer/sudplan/arrow-right.png")));          // NOI18N
-        btnForward.setBorder(null);
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/objectrenderer/arrow-right.png")));          // NOI18N
         btnForward.setBorderPainted(false);
         btnForward.setContentAreaFilled(false);
         btnForward.setFocusPainted(false);
@@ -878,9 +876,9 @@ public class LinzCsoRenderer extends AbstractCidsBeanRenderer implements BorderP
         btnForward.setMinimumSize(new java.awt.Dimension(30, 30));
         btnForward.setPreferredSize(new java.awt.Dimension(30, 30));
         btnForward.setPressedIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/objectrenderer/sudplan/arrow-right-pressed.png")));  // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/objectrenderer/arrow-right-pressed.png")));  // NOI18N
         btnForward.setRolloverIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/objectrenderer/sudplan/arrow-right-selected.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/objectrenderer/arrow-right-selected.png"))); // NOI18N
         btnForward.addActionListener(new java.awt.event.ActionListener() {
 
                 @Override

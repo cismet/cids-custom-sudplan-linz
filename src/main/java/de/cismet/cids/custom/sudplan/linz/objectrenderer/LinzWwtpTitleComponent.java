@@ -77,10 +77,10 @@ public class LinzWwtpTitleComponent extends javax.swing.JPanel {
 
         lblIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblIcon.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/wwtp.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/wwtp.png"))); // NOI18N
         lblIcon.setText(org.openide.util.NbBundle.getMessage(
                 LinzWwtpTitleComponent.class,
-                "LinzWwtpTitleComponent.lblIcon.text"));                                        // NOI18N
+                "LinzWwtpTitleComponent.lblIcon.text"));                                  // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(5, 15, 5, 5);

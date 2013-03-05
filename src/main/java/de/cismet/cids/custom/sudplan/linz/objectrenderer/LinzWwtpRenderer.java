@@ -187,7 +187,7 @@ public class LinzWwtpRenderer extends javax.swing.JPanel implements BorderProvid
         panFooterLeft.add(lblBack);
 
         btnBack.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/arrow-left.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/arrow-left.png"))); // NOI18N
         btnBack.setBorderPainted(false);
         btnBack.setContentAreaFilled(false);
         btnBack.setEnabled(false);
@@ -213,7 +213,7 @@ public class LinzWwtpRenderer extends javax.swing.JPanel implements BorderProvid
         panFooterRight.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10, 5));
 
         btnForward.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/arrow-right.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/arrow-right.png"))); // NOI18N
         btnForward.setBorderPainted(false);
         btnForward.setContentAreaFilled(false);
         btnForward.setFocusPainted(false);
@@ -273,10 +273,10 @@ public class LinzWwtpRenderer extends javax.swing.JPanel implements BorderProvid
         lblPage1.setBackground(new java.awt.Color(255, 255, 255));
         lblPage1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblPage1.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/wwtp1.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/wwtp1.png"))); // NOI18N
         lblPage1.setText(org.openide.util.NbBundle.getMessage(
                 LinzWwtpRenderer.class,
-                "LinzWwtpRenderer.lblPage1.text"));                                              // NOI18N
+                "LinzWwtpRenderer.lblPage1.text"));                                        // NOI18N
         lblPage1.setIconTextGap(0);
         panPage1.add(lblPage1);
 
@@ -287,10 +287,10 @@ public class LinzWwtpRenderer extends javax.swing.JPanel implements BorderProvid
 
         lblPage2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblPage2.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/wwtp2.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/wwtp2.png"))); // NOI18N
         lblPage2.setText(org.openide.util.NbBundle.getMessage(
                 LinzWwtpRenderer.class,
-                "LinzWwtpRenderer.lblPage2.text"));                                              // NOI18N
+                "LinzWwtpRenderer.lblPage2.text"));                                        // NOI18N
         panPage2.add(lblPage2, java.awt.BorderLayout.CENTER);
 
         add(panPage2, "CARD2");

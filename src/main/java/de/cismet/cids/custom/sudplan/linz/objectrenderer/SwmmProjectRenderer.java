@@ -289,10 +289,10 @@ public class SwmmProjectRenderer extends AbstractCidsBeanRenderer implements Tit
 
         previewLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         previewLabel.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/cids/custom/sudplan/local/linz/swmm_wms.png"))); // NOI18N
+                getClass().getResource("/de/cismet/cids/custom/sudplan/linz/swmm_wms.png"))); // NOI18N
         previewLabel.setText(org.openide.util.NbBundle.getMessage(
                 SwmmProjectRenderer.class,
-                "SwmmProjectRenderer.previewLabel.text"));                                          // NOI18N
+                "SwmmProjectRenderer.previewLabel.text"));                                    // NOI18N
         previewLabel.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         previewLabel.setMaximumSize(new java.awt.Dimension(350, 300));
         previewLabel.setMinimumSize(new java.awt.Dimension(300, 300));

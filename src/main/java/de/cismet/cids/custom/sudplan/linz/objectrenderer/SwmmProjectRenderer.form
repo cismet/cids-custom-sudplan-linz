@@ -106,7 +106,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="&lt;SwmmProjectRenderer.previewPanel.border.title&gt;">
+            <TitledBorder title="Map Preview:">
               <ResourceString PropertyName="titleX" bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="SwmmProjectRenderer.previewPanel.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
             </TitledBorder>
           </Border>
@@ -128,7 +128,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/de/cismet/cids/custom/sudplan/local/linz/swmm_wms.png"/>
+              <Image iconType="3" name="/de/cismet/cids/custom/sudplan/linz/swmm_wms.png"/>
             </Property>
             <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
               <ResourceString bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="SwmmProjectRenderer.previewLabel.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
@@ -148,7 +148,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="&lt;SwmmProjectRenderer.configPanel.title&gt;">
+            <TitledBorder title="Configuration:">
               <ResourceString PropertyName="titleX" bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="SwmmProjectRenderer.configPanel.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
             </TitledBorder>
           </Border>
@@ -195,7 +195,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="&lt;SwmmProjectRenderer.swmmRunPanel.border.title&gt;">
+            <TitledBorder title="SWMM Calculations">
               <ResourceString PropertyName="titleX" bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="SwmmProjectRenderer.swmmRunPanel.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
             </TitledBorder>
           </Border>
@@ -214,7 +214,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="&lt;SwmmProjectRenderer.swmmAnalysisPanel.border.title&gt;">
+            <TitledBorder title="SWMM Analysis">
               <ResourceString PropertyName="titleX" bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="SwmmProjectRenderer.swmmAnalysisPanel.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
             </TitledBorder>
           </Border>
@@ -312,7 +312,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="&lt;SwmmProjectRenderer.etaRunPanel.border.title&gt;">
+            <TitledBorder title="&#x3b7; Calculations">
               <ResourceString PropertyName="titleX" bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="SwmmProjectRenderer.etaRunPanel.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
             </TitledBorder>
           </Border>
@@ -331,7 +331,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="&lt;SwmmProjectRenderer.etaAnalysisPanel.border.title&gt;">
+            <TitledBorder title="&#x3b7; Analysis">
               <ResourceString PropertyName="titleX" bundle="de/cismet/cids/custom/sudplan/linz/objectrenderer/Bundle.properties" key="SwmmProjectRenderer.etaAnalysisPanel.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
             </TitledBorder>
           </Border>

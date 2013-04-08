@@ -19,6 +19,9 @@ import de.cismet.cids.custom.sudplan.linz.model.EtaComputationModel;
 
 import de.cismet.cids.dynamics.CidsBean;
 
+import de.cismet.commons.utils.ProgressEvent;
+import de.cismet.commons.utils.ProgressListener;
+
 /**
  * DOCUMENT ME!
  *

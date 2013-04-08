@@ -29,11 +29,12 @@ import java.util.GregorianCalendar;
 import java.util.Properties;
 
 import de.cismet.cids.custom.sudplan.AbstractModelRunWatchable;
-import de.cismet.cids.custom.sudplan.ProgressEvent;
-import de.cismet.cids.custom.sudplan.ProgressListener;
 import de.cismet.cids.custom.sudplan.commons.SudplanConcurrency;
 
 import de.cismet.cids.dynamics.CidsBean;
+
+import de.cismet.commons.utils.ProgressEvent;
+import de.cismet.commons.utils.ProgressListener;
 
 /**
  * DOCUMENT ME!

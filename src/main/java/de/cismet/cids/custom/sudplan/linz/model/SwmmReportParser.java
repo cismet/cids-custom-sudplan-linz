@@ -17,10 +17,11 @@ import java.io.InputStream;
 
 import java.util.*;
 
-import de.cismet.cids.custom.sudplan.ProgressListener;
-import de.cismet.cids.custom.sudplan.ProgressSupport;
 import de.cismet.cids.custom.sudplan.linz.CsoOverflow;
 import de.cismet.cids.custom.sudplan.linz.SwmmOutput;
+
+import de.cismet.commons.utils.ProgressListener;
+import de.cismet.commons.utils.ProgressSupport;
 
 /**
  * Parser for SWMM Report (RPT) Files.

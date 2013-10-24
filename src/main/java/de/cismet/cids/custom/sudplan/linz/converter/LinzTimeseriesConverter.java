@@ -31,7 +31,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.Locale;
-import java.util.TimeZone;
 
 import de.cismet.cids.custom.sudplan.Unit;
 import de.cismet.cids.custom.sudplan.Variable;
@@ -107,7 +106,7 @@ public final class LinzTimeseriesConverter implements TimeseriesConverter, Forma
                         + ")");
 
             while (line != null) {
-                final String[] split = line.split("   ");              // NOI18N
+                final String[] split = line.split("\\s+(?!\\d\\d:)");  // NOI18N
                 if (split.length == 1) {
                     if (LOG.isDebugEnabled()) {
                         LOG.debug("token without value: " + split[0]); // NOI18N
